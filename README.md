@@ -10,7 +10,7 @@ https://wishway-clone.onrender.com/
 
 ### ゲストユーザー
 
-メールアドレス：test_1@example.com
+メールアドレス：test_1@example.com<br>
 パスワード：test
 
 ## 作成者のバックグラウンド
