@@ -8,10 +8,10 @@
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
 
-100.times do |n|
+20.times do |n|
   User.create!(
-    name: "seedテスト#{n + 1}",
-    email: "seed#{n + 1}@test.com",
+    name: "テストユーザー_#{n + 1}",
+    email: "test_#{n + 1}@example.com",
     password: "test",
     password_confirmation: "test"
     )
@@ -19,4 +19,12 @@ end
 
 User.all.each do |user|
   user.create_wish_list!(title: "#{user.name}のバケットリスト")
+end
+
+WishList.all.each do |wish_list|
+  10.times do |n|
+    next if [true, false].sample
+    granted = [true, false].sample
+    wish_list.wishes.create!(title: "#{(1..10).to_a.sample}_やりたいこと", granted: granted)
+  end
 end
