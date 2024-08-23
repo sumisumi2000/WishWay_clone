@@ -58,6 +58,17 @@ Tailwind CSS と Daysy UI を導入しました。
 
 [![Image from Gyazo](https://i.gyazo.com/104379bff1fd6cfe42a106d1ee882b5c.png)](https://gyazo.com/104379bff1fd6cfe42a106d1ee882b5c)
 
+## 初めて挑戦したこと（カリキュラムではやらなかったこと）
+
+このアプリ開発時点で初めて挑戦したことは以下の通りです。<br>
+逆に言うとこれら以外のことは全て Rails 基礎を参考にしながら実装しました。
+
+- ローカル環境構築
+- デプロイ
+- TailwindCSS
+- DaisyUI
+- X シェア機能
+
 # 開発記事
 
 開発のきっかけや過程は Qiita 記事にて詳しく書いておりますので、気になる方はこちらをご確認ください！
